@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* <!-- start navbar --> */
+.nav{
+    margin-left: 100px;
+}
+ .navbar a{
+     color: #000;
+     font-weight: bolder;
+}
+.navbar{
+    border: .1px solid orange;
+
+}
+/* <!-- end navbar --> */
+
+/* start section one */
+.sec-one{
+    background-image: linear-gradient(to right, rgb(234, 119, 31), rgb(246, 167, 58));
+    width: 100%;
+    height: 30vh;
+    margin-top: -20px;
+}
+.sec-one h1,p{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-family:Arial;
+}
+/* end section one */
+
+/* start section two*/
+.sec-two{
+    margin-left: 160px;
+
+}
+.sec-two button:hover{
+    background-color: rgb(247, 211, 145);
+    background: orange;
+    border: none;
+  
+}
+.sec-two button{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/* end section two*/
+
+/* start section three*/
+.sec-three img{
+    height: 25vh;
+    width: 229px;
+}
+.sec-three .s {
+    display: flex;
+    justify-content: space-between;
+}
+.sec-three .s h1,h2{
+font-size: medium;
+font-weight: bolder;
+color: #000;
+}
+.sec-three p{
+    font-size:small;
+font-weight: lighter;
+color: #000;
+width: 230px;
+}
+.sec-three button{
+    width: 229px;
+    border-radius: 20px;
+}
+.sec-three button:hover{
+   background-color: orange;
+   border: none;
+
+}
+.sec-three .list1,.list2,.list3,.list4,.list5,.list6,.list7,.list8{
+    background-color: antiquewhite;
+    margin-left: 15px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+.containr{
+    margin-left: 22px;
+    margin-top: 30px;
+}
+
+/* end section three*/
+
+
+
+

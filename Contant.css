@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* <!-- start navbar --> */
+.nav{
+    margin-left: 100px;
+}
+ .navbar a{
+     color: #000;
+     font-weight: bolder;
+}
+
+/* <!-- end navbar --> */
+
+/* start section one */
+.sec-one{
+    background-image: linear-gradient(to right, rgb(234, 119, 31), rgb(246, 167, 58));
+    width: 100%;
+    height: 30vh;
+    margin-top: -20px;
+}
+.sec-one h1,p{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-family:Arial;
+}
+/* end section one */
+.sec-two {
+    margin: 50px auto;
+}
+.sec-two .bg{
+    display: flex;
+}
+.sec-two h1,h2{
+font-size: x-large;
+display: inline-block;
+font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec-two h1{
+    margin-left: 50px;
+}
+.sec-two h2{
+    margin-left: 400px;
+}
+.sec-two .right{
+    padding-left: 80px;
+}
+.sec-two .right div{
+    position: relative;
+    margin-bottom: 20px;
+}
+.sec-two .right i{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    font-size: large;
+    font-weight: bolder;
+    color: orange;
+}
+.sec-two .right h3{
+    font-size: medium;
+    font-weight: bolder;
+}
+.sec-two .right p{
+    color: #000;
+    font-size: small;
+    font-weight:lighter ;
+
+}
+.sec-two .left{
+    margin-left: 390px;
+    margin-top: -5px;
+}
+.sec-two .left label,.btn{
+    display: block;
+    margin-top: 20px;
+}
+.sec-two .left input{
+    width: 250px;
+    padding: 10px ;
+    bottom: none;
+}
+.sec-two .left .btn{
+    width:250px ;
+    background: orange;
+}
+
+/* end section two */
+
+/* <!-- start section sex --> */
+.sec-sex{
+    color: #fff;
+    background-color: #4b2d2d;
+    padding-top: 30px;
+}
+.sec-sex .pag{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-sex .pag .page1 ,.page2,.page3,.page4{
+    margin-left: 20px;
+}
+.sec-sex .pag .page1 i{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sec-sex .page2 span a{
+    text-decoration: none;
+    color: #fff;
+}
+.sec-sex .page2 ,.page4{
+    display: flex;
+    flex-direction: column;
+
+}
+.sec-sex .m{
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.sec-sex .pag h1{
+    font-size: medium;
+    color: #fff;
+
+}
+.sec-sex .pag p{
+    font-size: smaller;
+    width: 25vw;
+    color: #fff;
+}
+.sec-sex .pag i{
+    color: orange;
+}
+.end{
+    text-align: center;
+    font-size: x-small;
+    font-weight: lighter;
+   }
+   .end h1{
+     color: #c7aeae;
+    border-top: .2px solid #f8c7c7;
+    margin-top: 50px;
+
+     font-size: small;
+     font-weight: lighter;
+   }
+   .end span{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+
+   }
+/* <!-- end section sex --> */
